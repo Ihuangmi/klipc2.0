@@ -1,0 +1,173 @@
+@import "@/styles/_handle.scss";
+$color: #ad2935;
+$border: 4px solid #dee6ee;
+$bgc: #dee6ee;
+#reset {
+    width: 100%;
+    // min-height: 100vh;
+    padding: 50px 0;
+    background: url("~@/assets/images/bgc.png") no-repeat 0 0/100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: relative;
+    .logo{
+        position: absolute;
+        top: 42%;
+        left: 17.2%;
+    }
+    .content{
+        width: 348px;
+    }
+    .box {
+        width: 348px;
+        min-height: 411px;
+        font-size: 12px;
+        padding: 24px;
+        box-sizing: border-box;
+        color: #aaadb8;
+        background: #1B3460;
+        // box-shadow: 0px 6px 20px 0px rgba(230, 49, 141, 0.2);
+        border-radius: 10px;
+        // opacity: 0.95;
+        // position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);        
+        .language {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            img{
+                width: 100px;
+            }
+            .svg-icon {
+              width: 20px;
+              height: 20px;
+              cursor: pointer;
+            }
+        }
+        .header {
+            font-size: 14px;
+            margin: 20px 0;
+            display: flex;
+            div {
+                cursor: pointer;
+            }
+            @mixin checked {
+                height: 24px;
+                color: #E7EEF8;
+            }
+            .mobile {
+                @include checked();
+                margin-right: 24px;
+            }
+            .email {
+                @include checked();
+                margin-left: 24px;
+            }
+        }
+        .lang {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row-reverse;
+            div:nth-child(1) {
+                margin-left: 10px;
+            }
+            div:hover {
+                color: #5f6472;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+        .el-form .el-form-item /deep/ {
+            margin-bottom: 24px;
+            .el-input-group {
+                border-radius: 4px;
+                border: 1px solid rgba(217, 217, 217, 1);
+            }
+            .el-input .el-input__inner {
+                font-size: 12px;
+                height: 36px;
+                border-radius: 4px;
+                border: none;
+                color: #f3f5fb;
+                background: #102140;
+                &::placeholder {
+                    color: #798a9e;
+                }
+            }
+            .input-with-select {
+                border: none;
+                .el-input-group__prepend {
+                    border: none;
+                    padding: 0 0 0 5px;
+                    width: 80px;
+                    background: #102140;
+                }
+                .el-select .el-input__inner {
+                    width: 70px;
+                    border-radius: 4px 0 0 4px;
+                    background: #102140;
+                    padding: 0 10px;
+                    border: none;
+                }
+                .el-input__inner {
+                    height: 36px;
+                    background: #102140;
+                    padding: 0 10px;
+                    border: none;
+                    border-radius: 0 4px 4px 0;
+                }
+            }
+            .input-with-button {
+                border: none;
+                .el-input-group__append {
+                    border: none;
+                    border-radius: 0 4px 4px 0;
+                    background: #102140;
+                    border-left: 1px solid  #798a9e;
+                }
+                .el-input__inner {
+                    border-radius: 4px 0 0 4px;
+                }
+                .el-button {
+                    width: 102px;
+                    font-size: 12px;
+                    border: none;
+                    color: #798a9e;
+                    &:hover {
+                        color: #f3f5fb;
+                    }
+                }
+                .el-button.is-disabled:hover {
+                    background: #f3f5fb;
+                }
+            }
+            .btn {
+                width: 300px;
+                height: 36px;
+                color: #ffffff;
+                background: #ad2935;
+                border-radius: 4px;
+                // opacity: 0.2;
+                border: none;
+            }
+        }
+        .footer {
+            text-align: center;
+            cursor: pointer;
+            :hover {
+                color: #f3f5fb;
+            }
+        }
+    }
+    .descript-text {
+        font-size: 13px;
+        text-indent: 14px;
+        line-height: 20px;
+        color: #8ea4bd;
+        margin-top: 24px;
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="设计规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON" transform="translate(-1073.000000, -552.000000)">
+            <g id="展开" transform="translate(1073.000000, 552.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="18" height="18"></rect>
+                <g id="编组-9" transform="translate(1.000000, 1.000000)">
+                    <rect id="矩形" stroke="#AAADB8" x="0" y="0" width="16" height="16" rx="2"></rect>
+                    <rect id="矩形" fill="#AAADB8" x="10" y="2" width="4" height="12" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

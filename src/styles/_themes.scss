@@ -1,0 +1,138 @@
+//当HTML的data-theme为dark时，样式引用dark
+//data-theme为其他值时，就采用组件库的默认样式
+//这里我只定义了两套主题方案，想要再多只需在`$themes`里加就行了
+//注意一点是，每套配色方案里的key可以自定义但必须一致，不然就会混乱
+
+$themes: (
+
+    light: (
+        //字体
+        font_color1: #5F6472,//标题字体颜色
+        font_color2: #262626,//普通字体颜色
+        font_color3: #AAADB8,//灰色字体
+        font_color4: #9ea0a8,//表头字体颜色
+        font_color5: #5F6472,//表格单元格字体颜色
+        font_color6: #fff,//白色字体
+        font_color7: #5F6472,//菜单字体颜色
+        font_color8: #ad2935,//菜单选中颜色 #292F4C
+        font_color9: #292F4C,//buy btn 
+        font_color10: #fff,//sell btn 
+        font1: #ad2935,//tab hover
+        font_color11: #ad2935,//tab hover
+        font_color12: #262626,//card
+        font_color13: #5F6472,//card
+        font_color14: #AAADB8,//card
+        font_color15: #ffffff,//clock
+        
+        //背景
+        background_color1: #fff,//白色背景
+        background_color2: #dee6ee,//蓝色空隙背景
+        background_color3: #fff,//顶部card颜色
+        background_color4: #F5F5F5,//表头背景色
+        background_color5: #cac9c9,//滚动条颜色
+        background_color6: #EFF1F7,//菜单背景颜色
+        background_color7: #FFFFFF,//菜单hover颜色
+        background_color8: #efefef,//表格右下边框颜色
+        background_color9: #fff,// buy btn
+        background_color10: #292F4C,// sell btn
+        background_color11: #fafafa,// 升级会员页
+        background_color12: #fff,// 升级会员页
+        background_color13: #faf7f5,// 升级会员页
+        background_color14: #fffcfa,// 升级会员页 
+        background_color15: #faf4f1,// 升级会员页 
+        background_color16: #fff9f5,// 升级会员页 
+        background_color17: #feefee, // chosen
+        background_color18: #ad2935, // sel
+        background_color19: #F2F6FC, //date picker
+        background20: #ad2935,
+        background21: #ad2935,
+        background_color20: linear-gradient(303deg, rgba(32, 183, 150, 1) 0%, rgb(23, 231, 176) 100%),
+        background_color21: linear-gradient(303deg, rgba(245, 34, 45, 1) 0%, rgba(253, 132, 116, 1) 100%),
+        background_color22: linear-gradient(303deg, rgba(170, 173, 184, 1) 0%, rgba(201, 204, 213, 1) 100%),
+        background_color23: #F2F6FC, 
+        background_color24: #AD2935,  //dialog__header
+        background_color25:#AD2935,//tab hover line
+        background_color26:#4e4e4e,//clock
+        background_color27:#AAADB8,//scrollbar
+        
+
+        
+        //边框
+        border_color1: #dee6ee,
+        border_color2: #efefef,
+        border_color3: #292F4C,//buy btn 
+        border_color4: #3AB98E,//radio
+        border_color5: #fff,//radio
+        border_color6: #ad2935,//radio
+        border_color7: #ad2935,//radio
+        border_color8: #e0e3e7,//radio
+        border1: #ad2935,//radio
+    
+    ),
+    
+    dark: (
+        //字体
+        font_color1: #E7EEF8,//标题字体颜色
+        font_color2: #E7EEF8,//普通字体颜色
+        font_color3: #8EA4BD,//灰色小字体
+        font_color4: #8EA4BD,//表头字体颜色
+        font_color5: #E7EEF8,//表格单元格字体颜色
+        font_color6: #E7EEF8,//白色字体
+        font_color7: #A7AAB5,//菜单字体颜色
+        font_color8: #E7EEF8,//菜单选中颜色
+        font_color9: #8EA4BD,//buy btn 
+        font_color10: #1A253A,//sell btn 
+        font_color11: #fd6257,//tab hover
+        font1: #F6665D,//tab hover
+        // font_color11: #ad2935,//tab hover
+        font_color12: #E7EEF8,//card
+        font_color13: #E7EEF8,//card
+        font_color14: #8EA4BD,//card
+        font_color15: #111C30,//clock
+        
+        //背景
+        background_color1: #1A253A,//背景色
+        background_color2: #111C30,//空隙背景色
+        background_color3: #2D3D5C,//顶部card颜色
+        background_color4: #1C2A43,//表格头背景色
+        background_color5: #AAADB8,//滚动条颜色
+        background_color6: #131B2D,//菜单背景颜色
+        background_color7: #2D3D5C,//菜单hover颜色
+        background_color8: #2D3D5C,//表格右下边框颜色
+        background_color9: #1A253A,// buy btn
+        background_color10: #8EA4BD,// sell btn
+        background_color11: #1C2A43,// 升级会员页
+        background_color12: #1A253A,// 升级会员页 
+        background_color13: #213050,// 升级会员页 
+        background_color14: #1F2C48,// 升级会员页 
+        background_color15: #192C56,// 升级会员页 
+        background_color16: #17284E,// 升级会员页 
+        background_color17: #1A253A, // chosen
+        background_color18: #ad2935, // sel
+        background_color19: #192C56, //date picker
+        background20:  #F6665D, //date picker
+        background21:#2D3D5C,// sell btn
+        background22:#2D3D5C,// sell btn
+    
+        background_color20: linear-gradient(303deg, #1B6F67 0%, #0D7362 100%),//卡片
+        background_color21: linear-gradient(303deg, #893842 0%, #8B5456 100%),
+        background_color22: linear-gradient(303deg, #AAADB8 0%, #C9CCD5 100%),
+        background_color23: #2D3D5C, 
+        background_color24: #2D3D5C,  //dialog__header
+        background_color25:#fd6257,//tab hover line
+        background_color26:#E7EEF8,//clock
+        background_color27:#78889b,//scrollbar
+
+        //边框
+        border_color1: #111C30,
+        border_color2: #2D3D5C,
+        border_color3: #8EA4BD,//buy btn 
+        border_color4: #3AB98E,//radio
+        border_color5: #1A253A,//radio
+        border_color6: #2D3D5C,//radio
+        border_color7:  #F6665D,//radio
+        border_color8: #111C30,//radio
+        
+        border1: #8EA4BD,//buy btn 
+    )
+);

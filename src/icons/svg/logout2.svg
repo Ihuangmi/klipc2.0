@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="72.281901%" y1="100%" x2="18.3463542%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FF0808" offset="0%"></stop>
+            <stop stop-color="#FFA3A3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="9.06228774%" y1="2.03342007%" x2="85.3118157%" y2="91.6750193%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.263193837" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.194585498" offset="99.6922705%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0893247378" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#9F041B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-34.8722458%" id="linearGradient-4">
+            <stop stop-color="#FFEEB0" offset="0%"></stop>
+            <stop stop-color="#FFD005" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="设计规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON" transform="translate(-788.000000, -273.000000)">
+            <g id="编组-16复制备份-4" transform="translate(788.000000, 273.000000)">
+                <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <circle id="椭圆形" fill="url(#linearGradient-1)" cx="11.5" cy="12.5" r="8.5"></circle>
+                <path d="M11.5,4 C14.101619,4 16.4302476,5.1688109 17.9894276,7.00997447 C16.5089518,5.75633271 14.5928014,5 12.5,5 C7.80557963,5 4,8.80557963 4,13.5 C4,15.5928014 4.75633271,17.5089518 6.01057245,18.9900255 C4.1688109,17.4302476 3,15.101619 3,12.5 C3,7.80557963 6.80557963,4 11.5,4 Z" id="形状结合" fill="url(#linearGradient-2)"></path>
+                <path d="M12.2166667,15.8062163 C11.8208651,15.8062163 11.5,15.4881003 11.5,15.09569 L11.5,4.71052632 C11.5,4.31811595 11.8208651,4 12.2166667,4 C12.6124682,4 12.9333333,4.31811595 12.9333333,4.71052632 L12.9333333,15.09569 C12.9333333,15.4881003 12.6124906,15.8062163 12.2166667,15.8062163 Z" id="路径备份-12" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.2"></path>
+                <path d="M11.5757677,14.8062163 C11.1799661,14.8062163 10.859101,14.4881003 10.859101,14.09569 L10.859101,3.71052632 C10.859101,3.31811595 11.1799661,3 11.5757677,3 C11.9715693,3 12.2924344,3.31811595 12.2924344,3.71052632 L12.2924344,14.09569 C12.2924344,14.4881003 11.9715917,14.8062163 11.5757677,14.8062163 Z" id="路径" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+            </g>
+            <g id="编组-16复制备份-4" transform="translate(788.000000, 273.000000)">
+                <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <circle id="椭圆形" fill="url(#linearGradient-1)" cx="11.5" cy="12.5" r="8.5"></circle>
+                <path d="M11.5,4 C14.101619,4 16.4302476,5.1688109 17.9894276,7.00997447 C16.5089518,5.75633271 14.5928014,5 12.5,5 C7.80557963,5 4,8.80557963 4,13.5 C4,15.5928014 4.75633271,17.5089518 6.01057245,18.9900255 C4.1688109,17.4302476 3,15.101619 3,12.5 C3,7.80557963 6.80557963,4 11.5,4 Z" id="形状结合" fill="url(#linearGradient-2)"></path>
+                <path d="M12.2166667,15.8062163 C11.8208651,15.8062163 11.5,15.4881003 11.5,15.09569 L11.5,4.71052632 C11.5,4.31811595 11.8208651,4 12.2166667,4 C12.6124682,4 12.9333333,4.31811595 12.9333333,4.71052632 L12.9333333,15.09569 C12.9333333,15.4881003 12.6124906,15.8062163 12.2166667,15.8062163 Z" id="路径备份-12" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.2"></path>
+                <path d="M11.5757677,14.8062163 C11.1799661,14.8062163 10.859101,14.4881003 10.859101,14.09569 L10.859101,3.71052632 C10.859101,3.31811595 11.1799661,3 11.5757677,3 C11.9715693,3 12.2924344,3.31811595 12.2924344,3.71052632 L12.2924344,14.09569 C12.2924344,14.4881003 11.9715917,14.8062163 11.5757677,14.8062163 Z" id="路径" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

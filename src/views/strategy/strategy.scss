@@ -1,0 +1,552 @@
+@import "@/styles/_handle.scss";
+$color: #ad2935;
+$bgc: #d7e4f2;
+$border: 4px solid $bgc;
+.blank{
+  width: 100%;
+  height: 245px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  @include font_color("font_color1");
+}
+.detailList{
+  min-height: 400px;
+}
+.strategy /deep/{
+  .el-table--enable-row-hover .el-table__body tr:hover>td{
+    @include background_color("background_color4");
+  }
+.setting /deep/ .el-dialog__body{
+  @include font_color("font_color2");
+}
+.setting /deep/ .el-table--border::after, .el-table--group::after, .el-table::before{
+  @include background_color("background_color1");
+}
+.detail /deep/ .el-table--border::after, .el-table--group::after, .el-table::before{
+  @include background_color("background_color1");
+}
+.detail /deep/ .el-table__body-wrapper{
+  @include background_color("background_color1");
+}
+  .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color: #AD2935;
+    border-color: #AD2935
+  }
+  .el-table__footer-wrapper, .el-table__header-wrapper{
+    height: 28px;
+    display: flex;
+    align-items: center;
+  }
+  .el-radio-group{
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+}
+.strategy {
+  height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    @include background_color("background_color1");
+    align-items: center;
+    justify-content: center;
+    .pagesTop{
+      width: 100%;
+      @include background_color("background_color1");
+      display: flex;
+    }
+    
+    .topCard {
+      width: 100%;
+      height: 56px;
+      border-top: 4px solid;
+      border-right: 4px solid;
+      border-bottom: 4px solid;
+      box-sizing: border-box;
+      @include border_color("border_color1");
+      @include background_color("background_color1");
+        display: flex;
+        justify-content: space-between;
+        .subTitle{
+          width: 16.5%;
+          border-right: 1px solid ;
+          @include border_color("border_color1");
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding-left: 10px;
+          .info{
+           @include font_color("font_color1");
+          font-size: 14px;
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+            height: 95%;
+            width: 100%;
+            .titleItem{
+              width: 100%;
+              font-weight: 800;
+            }
+            .Itemyesterday{
+              width: 40%;
+            }
+          }
+        }
+      }
+      .el-card.is-always-shadow{
+        height: 271px;
+      }
+    .chart{
+      width: 100%;
+      height: 274px;
+      margin-bottom: 3px;
+      @include background_color("background_color1");
+
+    }
+    .tablelist{
+      width: 100%;
+      border-right: 4px solid;
+      border-bottom: 4px solid;
+      height: 100%;
+      @include border_color("border_color1");
+      box-sizing: border-box;
+    }
+}
+.product{
+  height: 16.34rem;
+}
+.topTitle{
+  width: 100%;
+}
+.tabs {
+  flex: 1;
+  width:100%;
+  height: 0;
+  @include border_color("border_color1");
+}
+.tabs ::v-deep,.tabs2 ::v-deep {
+  .el-tabs__nav-wrap::after {
+      height: 0;
+  }
+  .el-tabs__header {
+      height: 32px;
+      line-height: 32px;
+      padding: 0 16px;
+      margin: 0;
+
+      @include border_color("border_color1");
+  }
+  .el-tabs__nav-next,
+  .el-tabs__nav-prev {
+      line-height: 32px;
+      font-weight: bold;
+  }
+  .el-tabs__active-bar {
+      height: 2px;
+      // background: $color;
+      @include background_color("background_color25");
+  }
+  .el-tabs__item {
+      color: rgba(95, 100, 114, 1);
+      @include font_color("font_color1");
+      font: {
+          family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+          size: 14px;
+          weight: bold;
+      }
+      // padding: 0 24px 0 0;
+      height: 20px;
+      line-height: 20px;
+  }
+  .el-tabs__item:hover {
+      color: $color;
+      @include font_color("font_color11");
+  }
+  .el-tabs__item.is-active {
+      color: $color;
+      @include font_color("font_color11");
+  }}
+//布局
+.el-row {
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.el-dropdown{
+  display: block;
+}
+.el-dropdown-link {
+  cursor: pointer;
+  @include font_color("font_color1");
+}
+.el-icon-arrow-down {
+  font-size: 12px;
+}
+.el-table{
+  font-size: 12px;
+}
+.demonstration {
+  display: block;
+  color: #8492a6;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.subCard{
+  @include font_color("font_color1");
+  @include background_color("background_color1");
+  @include border_color("border_color1");
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid ;
+    font-weight: bold;
+    font-size: 14px;
+    text-indent: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .detail{
+      @include font_color("font_color1");
+      cursor: pointer;
+      &:hover { color:#3280FE; }
+    }
+    .imgbox{
+      height: 18px;
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}
+.el-table th{
+  padding: 0;
+}
+.cardTitle{
+  @include font_color("font_color1");
+  @include background_color("background_color1");
+  @include border_color("border_color1");
+  height:32px;
+  line-height:32px;
+  border-bottom: 1px solid;
+  font-weight:bold;
+  font-size:14px;
+
+}
+.card{
+  @include font_color("font_color1");
+  @include background_color("background_color1");
+  display:flex;align-items: center;font-size:12px
+}
+.PLtitle{
+  border-left: 4px solid;
+  @include border_color("border_color1");
+  border-right: 4px solid;
+}
+.renew /deep/ {
+  .el-dialog__footer{
+    padding: 0;
+  }
+  .el-checkbox__label {
+    font-size: 12px;
+  @include font_color("font_color2");
+
+  }
+  .el-dialog {
+      width: 478px;
+      min-height: 197px;
+      background: rgba(255, 255, 255, 1);
+      @include background_color("background_color1");
+      border-radius: 16px;
+  }
+  .el-dialog .el-dialog__header {
+      height: 32px;
+      line-height: 32px;
+      @include background_color("background21");
+      border-radius: 16px 16px 0px 0px;
+      padding: 0 25px;
+  }
+  .el-dialog .el-dialog__title {
+      font-size: 14px;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      line-height: 20px;
+      font-family: NotoSansCJKsc-Bold, NotoSansCJKsc;
+  }
+  .el-dialog .el-dialog__headerbtn {
+      top: 8px;
+      color: rgba(255, 255, 255, 1);
+  }
+  .el-dialog .el-dialog__body {
+      padding: 20px 20px 10px 20px;
+      @include font_color("font_color2");
+  }
+  .el-dialog .dialog-footer {
+      display: flex;
+      justify-content: center;
+  }
+
+  @mixin btn-text($color, $bgc) {
+      font: {
+          family: Arial;
+          size: 12px;
+      }
+      color: $color;
+      background: $bgc;
+      width: 80px;
+      height: 28px;
+      text-align: center;
+      // line-height: 5px;
+      border-radius: 4px;
+  }
+  .el-dialog .el-button {
+      padding: 0;
+  }
+  .el-dialog .el-button:nth-child(2) {
+      @include btn-text(rgba(255, 255, 255, 1), rgba(173, 41, 53, 1));
+      border-color: #ad2935;
+  }
+  .el-dialog .el-button:nth-child(1) {
+    @include btn-text(#ffffff, #5F6472);
+    border: 1px solid #5F6472;
+      box-sizing: border-box;
+  }
+  .el-dialog .el-form {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .el-dialog .el-form-item {
+      width: 50%;
+      margin-bottom: 5px;
+  }
+  $labelwidth: 60px;
+  $marginright: 10px;
+  .el-dialog .el-form-item__label {
+      font-size: 12px;
+      min-width: $labelwidth !important;
+      padding: 0;
+      margin-right: $marginright;
+      font-family: NotoSansCJKsc-Regular, NotoSansCJKsc;
+      font-weight: 400;
+      color: rgba(38, 38, 38, 1);
+      @include font_color("font_color2");
+  }
+  .el-dialog .el-form-item__content {
+      // margin-left: $labelwidth + $marginright !important;
+      font-size: 12px;
+      padding-left: 10px;
+      @include font_color("font_color2");
+  }
+  .el-dialog .el-select {
+      margin: 0;
+  }
+  .el-dialog .el-input__inner {
+      width: 134px;
+      height: 24px;
+      border: 1px solid rgba(239, 239, 239, 1);
+      font-size: 12px;
+      @include background_color("background_color1");
+      @include border_color("border_color2");
+  }
+}
+.detail /deep/{
+  .el-dialog {
+    border-radius: 10px !important;
+    width: 85%;
+    @include background_color("background_color1");
+  }
+}
+.setting /deep/ {
+  .el-dialog {
+    border-radius: 10px !important;
+    width: 65%;
+    @include background_color("background_color1");
+  }
+}
+.setting /deep/ ,.detail /deep/ {
+  .el-dialog__header {
+    /* padding: 20px 20px 10px; */
+    height: 32px;
+    padding: 0;
+    border-radius: 10px 10px 0 0 !important;
+    @include background_color("background21");
+  }
+  .el-dialog__headerbtn {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+  }
+  .el-dialog__title {
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+  }
+  .el-input {
+    width: 134px;
+    font-size: 12px;
+  }
+  .el-input__inner {
+    height: 24px;
+    line-height: 24px;
+  }
+  .el-form-item__label {
+    font-size: 12px;
+    @include font_color("font_color2");
+  }
+  .el-form-item {
+    margin-bottom: 0;
+  }
+  @mixin btn-text($color, $bgc) {
+    font: {
+        family: Arial;
+        size: 12px;
+    }
+    color: $color;
+    background: $bgc;
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    // line-height: 5px;
+    border-radius: 4px;
+}
+  .el-button--primary {
+    color: #fff;
+    height: 28px;
+    border-color: #fff;
+    width: 80px;
+    background: rgba(173, 41, 53, 1) !important;
+    border-radius: 4px;
+    line-height: 28px;
+  }
+  .el-dialog .el-button:nth-child(2) {
+    @include btn-text(rgba(255, 255, 255, 1), rgba(173, 41, 53, 1));
+    border-color: #ad2935;
+}
+.el-dialog .el-button:nth-child(1) {
+  @include btn-text(#ffffff, #5F6472);
+  border: 1px solid #5F6472;
+    box-sizing: border-box;
+}
+  .el-button {
+    font-size: 12px;
+    width: 80px;
+    height: 28px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dialog-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .el-radio__label {
+    font-size: 12px;
+  }
+  .setInput {
+    width: 50px;
+    margin-left: 10px;
+  }
+  .el-dialog__body {
+    padding:5px 20px 20px 20px;
+  }
+  .titleSub {
+    font-size: 12px;
+    height: 30px;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid ;
+    @include border_color("border_color1");
+    @include font_color("font_color2");
+  }
+}
+
+.strategy /deep/ .el-table td{
+  @include background_color("background_color1");
+  @include border_color("border_color2");
+  @include font_color("font_color1");
+}
+.tablelist /deep/ .el-table td, .el-table th{
+  padding-top: 0;
+  padding-bottom:0 ;
+}
+.strategy /deep/ .el-table th{
+  @include background_color("background_color4");
+  @include border_color("border_color2");
+  @include font_color("font_color3");
+  height: 28px;
+}
+.strategy /deep/ .el-table--border{
+  border: none;
+  @include border_color("border_color2");
+}
+.strategy /deep/ .el-table td,.strategy /deep/ .el-table th {
+  padding:0;
+  /* min-width: 0; */
+  height: 28px;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  position: relative;
+  text-align: left;
+  @include font_color("font_color1");
+}
+.measure {
+  padding: 10px 0;
+  border-top: 1px solid ;
+  border-bottom: 1px solid ;
+  @include border_color("border_color1");
+  .type {
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .documentary {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .set_value {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+}
+.note {
+  font-size: 10px;
+  color: rgba(170, 173, 184, 1);
+  margin-top: 10px;
+  @include font_color("font_color4");
+}
+.setcolor /deep/ .el-input__inner,.setting /deep/ .el-table,.type /deep/ .el-input__inner{
+  border: 1px solid rgba(239, 239, 239, 1);
+  font-size: 12px;
+  @include background_color("background_color1");
+  @include border_color("border_color2");
+  @include font_color("font_color2");
+}
+.grid-content /deep/ .el-table{
+  position: inherit;
+  @include background_color("background_color1");
+}
+.borderBox{
+  height: 120px;
+  border: 1px solid ;
+  @include border_color("border1");
+  border-radius: 4px;
+  overflow: auto;
+}
+.sprit{
+  background-color: red;
+}
+.titlecolor{
+  @include font_color("font_color2");
+}
+.red{color: #F6665D;}
+.green{color:#3AB98E;}

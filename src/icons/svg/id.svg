@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>印度尼西亚</title>
+    <defs>
+        <path d="M0.724,7.708 C1.63967055,3.92626099 4.74751626,1.07125969 8.59319578,0.47901689 C12.4388753,-0.113225909 16.2617012,1.67443727 18.2727514,5.00545509 C20.2838015,8.33647291 20.085284,12.5519596 17.7700966,15.6792444 C15.4549092,18.8065291 11.4810033,20.2270252 7.708,19.276 C5.24571392,18.6716967 3.12525181,17.1121137 1.81486637,14.9416471 C0.504480942,12.7711805 0.11196637,10.168376 0.724,7.708" id="path-1"></path>
+    </defs>
+    <g id="设计规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON" transform="translate(-150.000000, -1030.000000)">
+            <g id="印度尼西亚" transform="translate(150.000000, 1030.000000)">
+                <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <g id="编组-24" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="蒙版" fill="#E72D14" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)" fill-rule="nonzero" id="路径">
+                        <g transform="translate(-6.000000, 0.000000)">
+                            <polygon fill="#CC303C" points="0 0 32 0 32 10 0 10"></polygon>
+                            <polygon fill="#FFFFFF" points="0 10 32 10 32 20 0 20"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

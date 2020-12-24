@@ -1,0 +1,428 @@
+@import "@/styles/_handle.scss";
+@mixin border_r {
+    border-right: 4px solid #dee6ee;
+    @include border_color("border_color1");
+}
+@mixin border_b {
+    border-bottom: 4px solid #dee6ee;
+    @include border_color("border_color1");
+}
+
+$height: 2rem;
+#report {
+    // min-height: 88vh;
+    box-sizing: border-box;
+    // @include border_b;
+    // @include border_r;
+    @include font_color("font_color1");
+    @include background_color("background_color1");
+    @include border_color("border_color1");
+
+    .content {
+        @include border_r;
+        .header {
+            @include border_b;
+            @include background_color("background_color1");
+            height: $height;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 16px;
+
+            .title {
+                font-size: 14px;
+                font-weight: 800;
+                // text-indent: 1rem;
+                color: #ad2935;
+            }
+            .setting /deep/ .el-button {
+                @include background_color("background_color1");
+                // width: 80px;
+                height: 28px;
+                border-radius: 4px;
+                border: none;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover,
+                &:active,
+                &:focus {
+                    color: #ad2935;
+                }
+                .el-icon-s-tools {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .filter-box {
+            @include border_b;
+            @include background_color("background_color1");
+            height: $height;
+            // height: 2 * $height;
+            padding: 10px 16px;
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .select {
+                display: flex;
+                align-items: center;
+                & ::v-deep .multiple {
+                    width: 150px;
+                    .el-input__inner {
+                        width: 150px;
+                    }
+                    .el-tag.el-tag--info{
+                        color: #E7EEF8;
+                        background: #2D3D5C;
+                        border-color: #2D3D5C;
+                        @include font_color("font_color2");
+                        @include border_color("border_color1");
+                        @include background_color("background_color3");
+                    }
+                }
+            }
+            .search-btn .el-button {
+                min-width: 60px;
+                height: 28px;
+                color: #ffffff;
+                background: #ad2935;
+                border-radius: 4px;
+                border: none;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 5px;
+                // margin: 0 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .filter-date {
+                display: flex;
+                align-items: center;
+                margin-top: 12px;
+                .el-radio-group {
+                    padding-left: 10px;
+                }
+                .date-picker {
+                    @include font_color("font_color3");
+                    .el-date-editor {
+                        margin: 0 1rem !important;
+                        width: 134px !important;
+                        height: 24px !important;
+                        line-height: 24px !important;
+                        & /deep/ .el-input__inner {
+                            height: 24px !important;
+                            line-height: 24px !important;
+                            border: 1px solid #efefef !important;
+                            @include border_color("border_color2");
+                            @include background_color("background_color1");
+                        }
+                    }
+                }
+            }
+        }
+        .el-select {
+            margin: 0 25px 0 8px;
+        }
+        .el-input {
+            width: 200px;
+        }
+        .header_data {
+            display: flex;
+            // margin-right: 30rem;
+            .header_item {
+                display: flex;
+                align-items: center;
+                // margin-right: 2rem;
+                .text {
+                    font-size: 12px;
+                    font-family: MicrosoftYaHei;
+                    // color: rgba(95, 100, 114, 1);
+                    @include font_color("font_color2");
+                    margin-right: 6px;
+                }
+                @mixin number {
+                    font-size: 12px;
+                    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+                    font-weight: bold;
+                    margin-right: 2px;
+                }
+                .number_up {
+                    @include number;
+                    color: #f6665d;
+                }
+                .number_down {
+                    @include number;
+                    color: #3ab98e;
+                }
+                .svg-icon {
+                    width: 14px;
+                    height: 14px;
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        .setting /deep/ .el-button{
+            @include background_color("background_color1");
+            @include font_color("font_color7");
+            height: 28px;
+            border-radius: 4px;
+            border: none;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 0;
+            margin: 0 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover, &:active, &:focus{
+                color: #ad2935;
+                @include font_color("font_color8");
+            }
+            .el-icon-s-tools{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        .load-btn /deep/ .el-button {
+            @include background_color("background_color1");
+            @include font_color("font_color7");
+            height: 28px;
+            border-radius: 4px;
+            border: none;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover,
+            &:active,
+            &:focus {
+                color: #ad2935;
+                @include font_color("font_color8");
+            }
+            .el-icon-download {
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        .image {
+            width: 36px;
+            height: 18px;
+            display: block;
+            margin: auto 0;
+        }
+        @mixin btn {
+            width: 36px;
+            height: 18px;
+            border-radius: 2px;
+            padding: 0 2px;
+            box-sizing: border-box;
+            cursor: default;
+        }
+        .buy {
+            @include btn;
+            @include font_color("font_color9");
+            @include background_color("background_color9");
+            @include border_color("border_color3");
+        }
+        .sell {
+            @include btn;
+            @include font_color("font_color10");
+            @include background_color("background_color10");
+            @include border_color("border_color3");
+        }
+        .dialog-body {
+            font-size: 12px;
+            padding: 12px 24px;
+            @include font_color("font_color3");
+            .filter {
+                display: flex;
+                align-items: center;
+                // margin-bottom: 6px;
+                margin: 5px 0;
+                .label {
+                    margin-right: 10px;
+                }
+            }
+            .text {
+                font-size: 10px;
+                padding-bottom: 12px;
+                margin: 0 5px;
+                border-bottom: 1px solid #efefef;
+                @include font_color("font_color3");
+            }
+            .radio {
+                height: 24px;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                margin: 12px 0;
+            }
+            .set_value {
+                display: flex;
+                align-items: center;
+                .el-input {
+                    width: 124px;
+                }
+            }
+            $color: #ad2935;
+
+            .tabs /deep/ {
+                .el-tabs__nav-wrap::after {
+                    height: 0;
+                }
+                .el-tabs__header {
+                    height: 32px;
+                    line-height: 32px;
+                    padding: 0 12px;
+                    margin: 0;
+                    border-bottom: 1px solid rgb(231, 229, 229);
+                    @include border_color("border_color2");
+                }
+                .el-tabs__active-bar {
+                    height: 0;
+                    // background-color: $color;
+                    @include background_color("background_color25");
+                }
+                .el-tabs__item {
+                    @include font_color("font_color1");
+                    font-size: small;
+                    padding: 0;
+                    margin-right: 15px;
+                    height: 18px;
+                    line-height: 18px;
+                    border-radius: 2px;
+                }
+                .el-tabs__item:hover {
+                    color: $color;
+                    @include font_color("font1");
+                }
+                .el-tabs__item.is-active {
+                    @include font_color("font_color6");
+                    color: #fff;
+                    background-color: $color;
+                    padding: 0 4px;
+                }
+            }
+            .settings {
+                .head {
+                    height: 28px;
+                    line-height: 28px;
+                    text-indent: 3rem;
+                    display: flex;
+                    background: rgba(245, 245, 245, 1);
+                    @include background_color("background_color1");
+                    div {
+                        width: 50%;
+                    }
+                }
+                ul li {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 0;
+                    .product {
+                        width: 50%;
+                        span {
+                            margin-right: 30px;
+                        }
+                    }
+                    .input {
+                        width: 50%;
+                        padding-left: 20px;
+                    }
+                    .el-input {
+                        width: 124px;
+                    }
+                }
+            }
+        }
+    }
+    .content /deep/ .el-dialog {
+        width: 525px;
+        height: 470px;
+        background: rgba(255, 255, 255, 1);
+        @include background_color("background_color1");
+        border-radius: 16px;
+
+        .el-dialog__header {
+            height: 32px;
+            border-radius: 16px 16px 0px 0px;
+            padding: 0 25px;
+            display: flex;
+            align-items: center;
+            @include background_color("background_color24");
+        }
+        .el-dialog__title {
+            font-size: 14px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 1);
+            line-height: 20px;
+            font-family: NotoSansCJKsc-Bold, NotoSansCJKsc;
+        }
+        .el-dialog__headerbtn {
+            top: 8px;
+            color: rgba(255, 255, 255, 1);
+        }
+        .el-dialog__body {
+            // padding: 12px 24px;
+            padding: 0;
+        }
+        .el-dialog__footer {
+            padding: 20px;
+        }
+        .dialog-footer {
+            display: flex;
+            justify-content: center;
+        }
+
+        @mixin btn-text($color, $bgc) {
+            font: {
+                family: Arial;
+                size: 12px;
+            }
+            color: $color;
+            background: $bgc;
+            width: 80px;
+            height: 28px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .el-button {
+            padding: 0;
+        }
+        .el-button:nth-child(2) {
+            @include btn-text(rgba(255, 255, 255, 1), rgba(173, 41, 53, 1));
+            border-color: #ad2935;
+        }
+        .el-button:nth-child(1) {
+            @include btn-text(#ffffff, #5F6472);
+            border: 1px solid #5F6472;
+            box-sizing: border-box;
+        }
+        .el-select {
+            margin: 0;
+        }
+        .el-select .el-input .el-input__inner {
+            width: 100%;
+            height: 24px;
+            border: 1px solid transparent;
+            font-size: 12px;
+        }
+        .el-input .el-input__inner {
+            width: 124px;
+            height: 24px;
+            @include border_color("border_color2");
+            @include background_color("background_color1");
+            font-size: 12px;
+        }
+    }
+}

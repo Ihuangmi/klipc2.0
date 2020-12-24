@@ -1,0 +1,156 @@
+@import "@/styles/_handle.scss";
+@mixin border1 {
+    border-bottom: 4px solid #d7e4f2;
+    @include border_color("border_color1");
+}
+@mixin border2 {
+    border-bottom: 1px solid #d7e4f2;
+    @include border_color("border_color2");
+}
+@mixin border3 {
+    border-right: 4px solid #d7e4f2;
+    @include border_color("border_color1");
+}
+@mixin title0 {
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    font-family: NotoSansCJKsc-Bold, NotoSansCJKsc;
+    font-weight: bold;
+    text-indent: 1em;
+}
+#analysis {
+    min-height: 100vh;
+    font-size: 12px;
+    @include border1;
+    @include font_color("font_color1");
+    @include background_color("background_color1");
+    @include border_color("border_color1");
+
+    .nodata {
+        font-size: 12px;
+        text-align: center;
+        padding: 16px;
+        height: 180px;
+        color: #909399;
+        // @include font_color("font_color5");
+    }
+    .header {
+        @include border1;
+        @include border3;
+        @include title0;
+        color: #ad2935;
+    }
+    .title {
+        @include border2;
+        @include title0;
+        @include font_color("font_color1");
+    }
+    .account {
+        @include border1;
+        @include border3;
+        .select {
+            height: 36px;
+            padding-left: 1rem;
+            display: flex;
+            align-items: center;
+            position: relative;
+            .el-select {
+                margin-right: 30px;
+            }
+            .search-btn {
+                position: absolute;
+                right: 20px;
+            }
+            .search-btn .el-button {
+                min-width: 60px;
+                height: 28px;
+                color: #ffffff;
+                background: #ad2935;
+                border-radius: 4px;
+                border: none;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .date-picker {
+                // @include font_color("font_color3");
+                // .el-date-editor {
+                //     margin: 0 1rem !important;
+                //     width: 134px !important;
+                //     height: 24px !important;
+                //     line-height: 24px !important;
+                //     & /deep/ .el-input__inner {
+                //         height: 24px !important;
+                //         line-height: 24px !important;
+                //         border: 1px solid #efefef !important;
+                //         @include border_color("border_color2");
+                //         @include background_color("background_color1");
+                //     }
+                // }
+            }
+        }
+    }
+    .el-row {
+        @include border3;
+    }
+    .leftbox {
+        min-height: 90vh;
+        box-sizing: border-box;
+        @include border3;
+        .pro_chart {
+            @include border1;
+        }
+        .echarts {
+            display: flex;
+
+            .left {
+                width: 70%;
+                @include border3;
+            }
+            .right {
+                width: 30%;
+            }
+        }
+    }
+    .rightbox {
+        min-height: 676px;
+        // @include border3;
+        .list {
+            font-size: 12px;
+            border: 1px solid #efefef;
+            @include border_color("border_color2");
+            li {
+                display: flex;
+                width: 100%;
+                height: 28px;
+                line-height: 28px;
+                text-indent: 1rem;
+                &:nth-child(2n + 1) {
+                    background: #fafafa;
+                    @include background_color("background_color4");
+                }
+                .key {
+                    width: 50%;
+                    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+                    font-weight: bold;
+                    color: rgba(170, 173, 184, 1);
+                    @include font_color("font_color3");
+                    border-right: 1px solid #efefef;
+                    @include border_color("border_color2");
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .value {
+                    font-family: MicrosoftYaHei;
+                    color: rgba(38, 38, 38, 1);
+                    @include font_color("font_color2");
+                }
+            }
+        }
+    }
+}

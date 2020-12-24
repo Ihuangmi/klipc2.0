@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="18px" viewBox="0 0 36 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="设计规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON" transform="translate(-152.000000, -876.000000)">
+            <g id="编组-2" transform="translate(152.000000, 876.000000)">
+                <rect id="矩形" stroke="#292F4C" x="0.5" y="0.5" width="35" height="17" rx="2"></rect>
+                <text id="Buy" font-family="NotoSansCJKsc-Regular, Noto Sans CJK SC" font-size="8" font-weight="normal" line-spacing="12" letter-spacing="-0.1666666" fill="#292F4C">
+                    <tspan x="11.1099999" y="12">Buy</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

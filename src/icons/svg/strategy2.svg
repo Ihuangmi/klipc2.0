@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="11.7361222%" y1="19.3567071%" x2="83.7571153%" y2="77.0759415%" id="linearGradient-1">
+            <stop stop-color="#DAE2EA" offset="0%"></stop>
+            <stop stop-color="#A0A1A2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.281901%" y1="77.0759415%" x2="18.3463542%" y2="22.9240585%" id="linearGradient-2">
+            <stop stop-color="#FF0808" offset="0%"></stop>
+            <stop stop-color="#FFA3A3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="9.05902142%" y1="24.0653678%" x2="85.3146332%" y2="72.5329031%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.263193837" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.194585498" offset="99.6922705%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0893247378" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#9F041B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#9F041B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-34.8722458%" id="linearGradient-6">
+            <stop stop-color="#FFEEB0" offset="0%"></stop>
+            <stop stop-color="#FFD005" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-34.8722458%" id="linearGradient-7">
+            <stop stop-color="#FFEEB0" offset="0%"></stop>
+            <stop stop-color="#FFD005" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="设计规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICON" transform="translate(-572.000000, -273.000000)">
+            <g id="信号管理复制备份-4" transform="translate(572.000000, 273.000000)">
+                <rect id="矩形" fill="#5F6472" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <path d="M18.5226328,17.8666667 L5.63579676,17.8666667 C4.22240185,17.8666667 3.1,16.6291667 3.1,15.0708333 L3.1,7.41666667 C3.1,5.85833335 4.22240185,4.62083333 5.63579676,4.62083333 L18.5642032,4.62083333 C19.9775982,4.62083333 21.1,5.85833333 21.1,7.41666667 L21.1,15.0708333 C21.1,16.6291667 19.9360277,17.8666667 18.5226328,17.8666667 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                <path d="M18.5226328,17.8666667 L5.63579676,17.8666667 C4.22240185,17.8666667 3.1,16.6291667 3.1,15.0708333 L3.1,7.41666667 C3.1,5.85833335 4.22240185,4.62083333 5.63579676,4.62083333 L18.5642032,4.62083333 C19.9775982,4.62083333 21.1,5.85833333 21.1,7.41666667 L21.1,15.0708333 C21.1,16.6291667 19.9360277,17.8666667 18.5226328,17.8666667 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                <path d="M18.4642032,4.62083333 C19.3753466,4.62083333 20.1655614,5.13510382 20.6121147,5.91807156 C20.2681863,5.72726679 19.8787085,5.62083333 19.4642032,5.62083333 L19.4642032,5.62083333 L6.53579676,5.62083333 C5.12240185,5.62083333 4,6.85833335 4,8.41666667 L4,8.41666667 L4,16.0708333 C4,16.6253482 4.14211961,17.1392388 4.38889838,17.5712033 C3.56060423,17.1132315 3,16.1721555 3,15.0708333 L3,7.41666667 C3,5.85833335 4.12240185,4.62083333 5.53579676,4.62083333 L18.4642032,4.62083333 Z" id="形状结合" fill="url(#linearGradient-3)"></path>
+                <g id="编组-10" opacity="0.2" transform="translate(7.000000, 9.000000)" fill-rule="nonzero">
+                    <rect id="矩形" fill="url(#linearGradient-4)" x="0" y="0" width="11" height="2" rx="1"></rect>
+                    <rect id="矩形备份-9" fill="url(#linearGradient-5)" x="0" y="4" width="8" height="2" rx="1"></rect>
+                </g>
+                <g id="编组-10" transform="translate(6.000000, 8.000000)" fill-rule="nonzero">
+                    <rect id="矩形" fill="url(#linearGradient-6)" x="0" y="0" width="12" height="2" rx="1"></rect>
+                    <rect id="矩形备份-9" fill="url(#linearGradient-7)" x="0" y="4" width="9" height="2" rx="1"></rect>
+                </g>
+                <path d="M16.8125,21.075 L7.1875,21.075 C6.82083333,21.075 6.5,20.7541667 6.5,20.3875 C6.5,20.0208333 6.82083333,19.7 7.1875,19.7 L16.8583333,19.7 C17.225,19.7 17.5458333,20.0208333 17.5458333,20.3875 C17.5458333,20.7541667 17.225,21.075 16.8125,21.075 Z" id="路径" fill="#D0021B" fill-rule="nonzero"></path>
+            </g>
+            <g id="信号管理复制备份-4" transform="translate(572.000000, 273.000000)">
+                <rect id="矩形" fill="#5F6472" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <path d="M18.5226328,17.8666667 L5.63579676,17.8666667 C4.22240185,17.8666667 3.1,16.6291667 3.1,15.0708333 L3.1,7.41666667 C3.1,5.85833335 4.22240185,4.62083333 5.63579676,4.62083333 L18.5642032,4.62083333 C19.9775982,4.62083333 21.1,5.85833333 21.1,7.41666667 L21.1,15.0708333 C21.1,16.6291667 19.9360277,17.8666667 18.5226328,17.8666667 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                <path d="M18.5226328,17.8666667 L5.63579676,17.8666667 C4.22240185,17.8666667 3.1,16.6291667 3.1,15.0708333 L3.1,7.41666667 C3.1,5.85833335 4.22240185,4.62083333 5.63579676,4.62083333 L18.5642032,4.62083333 C19.9775982,4.62083333 21.1,5.85833333 21.1,7.41666667 L21.1,15.0708333 C21.1,16.6291667 19.9360277,17.8666667 18.5226328,17.8666667 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                <path d="M18.4642032,4.62083333 C19.3753466,4.62083333 20.1655614,5.13510382 20.6121147,5.91807156 C20.2681863,5.72726679 19.8787085,5.62083333 19.4642032,5.62083333 L19.4642032,5.62083333 L6.53579676,5.62083333 C5.12240185,5.62083333 4,6.85833335 4,8.41666667 L4,8.41666667 L4,16.0708333 C4,16.6253482 4.14211961,17.1392388 4.38889838,17.5712033 C3.56060423,17.1132315 3,16.1721555 3,15.0708333 L3,7.41666667 C3,5.85833335 4.12240185,4.62083333 5.53579676,4.62083333 L18.4642032,4.62083333 Z" id="形状结合" fill="url(#linearGradient-3)"></path>
+                <g id="编组-10" opacity="0.2" transform="translate(7.000000, 9.000000)" fill-rule="nonzero">
+                    <rect id="矩形" fill="url(#linearGradient-4)" x="0" y="0" width="11" height="2" rx="1"></rect>
+                    <rect id="矩形备份-9" fill="url(#linearGradient-5)" x="0" y="4" width="8" height="2" rx="1"></rect>
+                </g>
+                <g id="编组-10" transform="translate(6.000000, 8.000000)" fill-rule="nonzero">
+                    <rect id="矩形" fill="url(#linearGradient-6)" x="0" y="0" width="12" height="2" rx="1"></rect>
+                    <rect id="矩形备份-9" fill="url(#linearGradient-7)" x="0" y="4" width="9" height="2" rx="1"></rect>
+                </g>
+                <path d="M16.8125,21.075 L7.1875,21.075 C6.82083333,21.075 6.5,20.7541667 6.5,20.3875 C6.5,20.0208333 6.82083333,19.7 7.1875,19.7 L16.8583333,19.7 C17.225,19.7 17.5458333,20.0208333 17.5458333,20.3875 C17.5458333,20.7541667 17.225,21.075 16.8125,21.075 Z" id="路径" fill="#D0021B" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
