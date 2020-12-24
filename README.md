@@ -1,5 +1,7 @@
 # klipc2.0
 
+当前分支为main
+
 ## Project setup
 ```
 yarn install
