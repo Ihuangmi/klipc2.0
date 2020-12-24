@@ -1,6 +1,6 @@
 # klipc2.0
 
-当前分支为main
+当前分支为dev
 
 ## Project setup
 ```
